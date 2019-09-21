@@ -1,0 +1,109 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gy-analysis:war exploded">
+    <output-path>$PROJECT_DIR$/target/gy-analysis</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gy-analysis" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar" output-file-name="spring-core.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" output-file-name="commons-logging.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar" output-file-name="spring-web.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar" output-file-name="spring-aop.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" output-file-name="aopalliance.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar" output-file-name="spring-beans.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar" output-file-name="spring-context.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.1.9.RELEASE/spring-webmvc-4.1.9.RELEASE.jar" output-file-name="spring-webmvc.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar" output-file-name="spring-expression.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-context-support/4.1.9.RELEASE/spring-context-support-4.1.9.RELEASE.jar" output-file-name="spring-context-support.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/4.1.9.RELEASE/spring-jdbc-4.1.9.RELEASE.jar" output-file-name="spring-jdbc.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.jar" output-file-name="spring-tx.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/aspectj/aspectjrt/1.6.0/aspectjrt-1.6.0.jar" output-file-name="aspectjrt.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/aspectj/aspectjweaver/1.8.7/aspectjweaver-1.8.7.jar" output-file-name="aspectjweaver.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.16/druid-1.0.16.jar" output-file-name="druid.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar" output-file-name="mybatis.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.4/mybatis-spring-1.2.4.jar" output-file-name="mybatis-spring.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1.jar" output-file-name="pagehelper.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/0.9.4/jsqlparser-0.9.4.jar" output-file-name="jsqlparser.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar" output-file-name="mysql-connector-java.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar" output-file-name="commons-lang3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar" output-file-name="log4j-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar" output-file-name="log4j-core.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar" output-file-name="log4j.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" output-file-name="dom4j.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" output-file-name="xml-apis.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7.jar" output-file-name="fastjson.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar" output-file-name="jackson-databind.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar" output-file-name="jackson-annotations.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.jar" output-file-name="jackson-core.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.52/bcpkix-jdk15on-1.52.jar" output-file-name="bcpkix-jdk15on.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar" output-file-name="bcprov-jdk15on.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" output-file-name="commons-codec.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" output-file-name="gson.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/json/json/20140107/json-20140107.jar" output-file-name="json.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar" output-file-name="poi.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" output-file-name="commons-fileupload.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar" output-file-name="commons-io.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/client/transport/6.8.1/transport-6.8.1.jar" output-file-name="transport.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar" output-file-name="elasticsearch.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch-core/6.8.1/elasticsearch-core-6.8.1.jar" output-file-name="elasticsearch-core.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch-secure-sm/6.8.1/elasticsearch-secure-sm-6.8.1.jar" output-file-name="elasticsearch-secure-sm.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch-x-content/6.8.1/elasticsearch-x-content-6.8.1.jar" output-file-name="elasticsearch-x-content.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar" output-file-name="snakeyaml.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.jar" output-file-name="jackson-dataformat-smile.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.jar" output-file-name="jackson-dataformat-yaml.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.jar" output-file-name="jackson-dataformat-cbor.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-core/7.7.0/lucene-core-7.7.0.jar" output-file-name="lucene-core.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-analyzers-common/7.7.0/lucene-analyzers-common-7.7.0.jar" output-file-name="lucene-analyzers-common.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-backward-codecs/7.7.0/lucene-backward-codecs-7.7.0.jar" output-file-name="lucene-backward-codecs.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-grouping/7.7.0/lucene-grouping-7.7.0.jar" output-file-name="lucene-grouping.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-highlighter/7.7.0/lucene-highlighter-7.7.0.jar" output-file-name="lucene-highlighter.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-join/7.7.0/lucene-join-7.7.0.jar" output-file-name="lucene-join.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-memory/7.7.0/lucene-memory-7.7.0.jar" output-file-name="lucene-memory.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-misc/7.7.0/lucene-misc-7.7.0.jar" output-file-name="lucene-misc.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-queries/7.7.0/lucene-queries-7.7.0.jar" output-file-name="lucene-queries.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-queryparser/7.7.0/lucene-queryparser-7.7.0.jar" output-file-name="lucene-queryparser.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-sandbox/7.7.0/lucene-sandbox-7.7.0.jar" output-file-name="lucene-sandbox.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-spatial/7.7.0/lucene-spatial-7.7.0.jar" output-file-name="lucene-spatial.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-spatial-extras/7.7.0/lucene-spatial-extras-7.7.0.jar" output-file-name="lucene-spatial-extras.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-spatial3d/7.7.0/lucene-spatial3d-7.7.0.jar" output-file-name="lucene-spatial3d.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/lucene/lucene-suggest/7.7.0/lucene-suggest-7.7.0.jar" output-file-name="lucene-suggest.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch-cli/6.8.1/elasticsearch-cli-6.8.1.jar" output-file-name="elasticsearch-cli.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.jar" output-file-name="jopt-simple.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar" output-file-name="hppc.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar" output-file-name="joda-time.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/tdunning/t-digest/3.2/t-digest-3.2.jar" output-file-name="t-digest.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar" output-file-name="HdrHistogram.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/jna/4.5.1/jna-4.5.1.jar" output-file-name="jna.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/transport-netty4-client/6.8.1/transport-netty4-client-6.8.1.jar" output-file-name="transport-netty4-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-buffer/4.1.32.Final/netty-buffer-4.1.32.Final.jar" output-file-name="netty-buffer.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-codec/4.1.32.Final/netty-codec-4.1.32.Final.jar" output-file-name="netty-codec.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-codec-http/4.1.32.Final/netty-codec-http-4.1.32.Final.jar" output-file-name="netty-codec-http.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-common/4.1.32.Final/netty-common-4.1.32.Final.jar" output-file-name="netty-common.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-handler/4.1.32.Final/netty-handler-4.1.32.Final.jar" output-file-name="netty-handler.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-resolver/4.1.32.Final/netty-resolver-4.1.32.Final.jar" output-file-name="netty-resolver.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/io/netty/netty-transport/4.1.32.Final/netty-transport-4.1.32.Final.jar" output-file-name="netty-transport.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/reindex-client/6.8.1/reindex-client-6.8.1.jar" output-file-name="reindex-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch-ssl-config/6.8.1/elasticsearch-ssl-config-6.8.1.jar" output-file-name="elasticsearch-ssl-config.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/lang-mustache-client/6.8.1/lang-mustache-client-6.8.1.jar" output-file-name="lang-mustache-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.jar" output-file-name="compiler.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/percolator-client/6.8.1/percolator-client-6.8.1.jar" output-file-name="percolator-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/parent-join-client/6.8.1/parent-join-client-6.8.1.jar" output-file-name="parent-join-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/rank-eval-client/6.8.1/rank-eval-client-6.8.1.jar" output-file-name="rank-eval-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.8.1/elasticsearch-rest-client-6.8.1.jar" output-file-name="elasticsearch-rest-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar" output-file-name="httpclient.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar" output-file-name="httpcore.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.jar" output-file-name="httpasyncclient.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.jar" output-file-name="httpcore-nio.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.8.1/elasticsearch-rest-high-level-client-6.8.1.jar" output-file-name="elasticsearch-rest-high-level-client.jar" />
+          <element id="file-copy" path="$USER_HOME$/.m2/repository/org/elasticsearch/plugin/aggs-matrix-stats-client/6.8.1/aggs-matrix-stats-client-6.8.1.jar" output-file-name="aggs-matrix-stats-client.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/gy-analysis/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="gy-analysis/web/Web" />
+    </root>
+  </artifact>
+</component>
