@@ -357,8 +357,7 @@ public class ESUtil {
         //SearchSourceBuilder builder = new SearchSourceBuilder();
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         TermsAggregationBuilder aggregation = AggregationBuilders.terms("na")
-                .field("name.keyword")
-                ;
+                .field("name.keyword");
         TermsAggregationBuilder field = AggregationBuilders.terms("average_age")
                 .field("id.keyword");
         SumAggregationBuilder field1 = AggregationBuilders.sum("sum").field("id.keyword");
