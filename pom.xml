@@ -13,7 +13,7 @@
         <jdk.version>1.7</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.1.9.RELEASE</spring.version>
-        <mysql.version>5.1.18</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <!-- 工程上下文件路径 -->
         <context-path>/</context-path>
     </properties>
